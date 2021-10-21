@@ -1,0 +1,72 @@
+{
+  "name": "babel-plugin-styled-components-react-native-web",
+  "version": "0.1.0-pre",
+  "description": "babel plugin for styled-components/native with react-native-web",
+  "keywords": [],
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
+  "license": "ISC",
+  "repository": "https://github.com/christophehurpeau/babel-plugin-styled-components-react-native-web.git",
+  "homepage": "https://github.com/christophehurpeau/babel-plugin-styled-components-react-native-web",
+  "type": "commonjs",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "packageManager": "yarn@3.0.2",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "generate:test-coverage": "rm -Rf docs/coverage/ ; NODE_ENV=production jest --coverage --coverageReporters=pob-lcov-reporter --coverageDirectory=docs/coverage/",
+    "lint": "yarn run lint:prettier && yarn run lint:eslint",
+    "lint:eslint": "eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet *.{js,cjs,mjs} lib",
+    "lint:prettier": "prettier --check .",
+    "preversion": "yarn run lint && repository-check-dirty",
+    "release": "repository-check-dirty && yarn preversion && standard-version -a -m 'chore(release): %s [skip ci]' && git push --follow-tags origin master && npm publish",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true,
+    "arrowParens": "always"
+  },
+  "commitlint": {
+    "extends": [
+      "@pob/commitlint-config"
+    ]
+  },
+  "jest": {
+    "cacheDirectory": "./node_modules/.cache/jest",
+    "testMatch": [
+      "<rootDir>/lib/**/__tests__/**/*.?(m)js",
+      "<rootDir>/lib/**/*.test.?(m)js"
+    ],
+    "collectCoverageFrom": [
+      "lib/**/*.?(m)js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ]
+  },
+  "pob": {},
+  "devDependencies": {
+    "@babel/core": "7.15.8",
+    "@pob/commitlint-config": "3.1.1",
+    "@pob/eslint-config": "45.1.0",
+    "@pob/root": "5.4.2",
+    "@types/jest": "27.0.2",
+    "eslint": "7.32.0",
+    "eslint-import-resolver-node": "0.3.6",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-unicorn": "35.0.0",
+    "jest": "27.3.1",
+    "pob-lcov-reporter": "5.2.0",
+    "prettier": "2.4.1",
+    "standard-version": "9.3.2"
+  }
+}
