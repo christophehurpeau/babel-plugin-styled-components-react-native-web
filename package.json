@@ -57,7 +57,7 @@
     "@babel/core": "7.16.0",
     "@pob/commitlint-config": "3.2.0",
     "@pob/eslint-config": "45.1.0",
-    "@pob/root": "5.7.2",
+    "@pob/root": "5.8.0",
     "@types/jest": "27.0.3",
     "eslint": "7.32.0",
     "eslint-import-resolver-node": "0.3.6",
