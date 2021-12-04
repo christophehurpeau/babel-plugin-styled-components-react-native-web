@@ -66,7 +66,7 @@
     "eslint-plugin-unicorn": "35.0.0",
     "jest": "27.4.3",
     "pob-lcov-reporter": "5.2.0",
-    "prettier": "2.5.0",
+    "prettier": "2.5.1",
     "standard-version": "9.3.2"
   }
 }
