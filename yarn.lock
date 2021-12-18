@@ -1534,7 +1534,7 @@ __metadata:
     eslint-plugin-node: 11.1.0
     eslint-plugin-unicorn: 35.0.0
     jest: 27.4.5
-    pob-lcov-reporter: 5.5.0
+    pob-lcov-reporter: 6.0.1
     prettier: 2.5.1
     standard-version: 9.3.2
   languageName: unknown
@@ -5474,14 +5474,14 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"pob-lcov-reporter@npm:5.5.0":
-  version: 5.5.0
-  resolution: "pob-lcov-reporter@npm:5.5.0"
+"pob-lcov-reporter@npm:6.0.1":
+  version: 6.0.1
+  resolution: "pob-lcov-reporter@npm:6.0.1"
   dependencies:
     istanbul-reports: ^3.0.2
   peerDependencies:
     jest: ^26.0.1 || ^27.0.6
-  checksum: 0ab26a9aa9b32976940185c710ab2aab685f8c5070e756d5a695035d8a98c3b508a67ae04b948b0ca2330dc59f4cd11fb534ef6034a3473f14678eb4506c7a2a
+  checksum: 984706c7083ff4cfcbe3e3eabdc54129803e25d6035d0ab1ffa44c39e19b5b91b10f11f738e7a710c86fd100826b51dbcecc932e6b3d03147c5278163f0a0b6d
   languageName: node
   linkType: hard
 
