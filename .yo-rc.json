@@ -5,7 +5,6 @@
       "packageManager": "yarn",
       "yarnNodeLinker": "node-modules"
     },
-    "libtest": "test",
     "renovate": {
       "enable": true
     },

@@ -5,13 +5,13 @@
 /samples
 /test
 /*.config.js
-.codeclimate.yml
+__snapshots__
 .yo-rc.json
 /renovate.json
 /yarn.lock
 /.yarn
 /.yarnrc.yml
-/.pnp.js
+/.pnp.*
 
 /.settings
 /.project

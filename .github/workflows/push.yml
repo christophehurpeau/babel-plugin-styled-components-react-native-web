@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [14.x, 16.x]
 
     steps:
       - uses: actions/checkout@v2
@@ -23,7 +23,6 @@ jobs:
         with:
           path: |
             .yarn/unplugged
-            .yarn/build-state.yml
             .yarn/install-state.gz
           key: v2-dependencies--${{ matrix.node-version }}-${{ runner.OS }}-${{ hashFiles('yarn.lock') }}
           restore-keys: |
@@ -35,11 +34,11 @@ jobs:
 
       - name: Prettier
         run: yarn run lint:prettier
-        if: startsWith(matrix.node-version, '14.')
+        if: startsWith(matrix.node-version, '16.')
 
       - name: Eslint
         run: yarn run lint:eslint
-        if: startsWith(matrix.node-version, '14.')
+        if: startsWith(matrix.node-version, '16.')
 
       - name: Test
         run: yarn run test
@@ -48,7 +47,7 @@ jobs:
 
       - name: Generate Coverage doc
         run: yarn run generate:test-coverage
-        if: startsWith(matrix.node-version, '14.')
+        if: startsWith(matrix.node-version, '16.')
         env:
           CI: true
 
@@ -56,8 +55,8 @@ jobs:
         uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-        if: startsWith(matrix.node-version, '14.')
+        if: startsWith(matrix.node-version, '16.')
 
       - name: Check nothing was forgotten before commit
-        if: startsWith(matrix.node-version, '14.')
+        if: startsWith(matrix.node-version, '16.')
         run: yarn run repository-check-dirty
