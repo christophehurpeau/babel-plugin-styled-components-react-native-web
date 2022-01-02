@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-styled-components-react-native-web",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "babel plugin for styled-components/native with react-native-web",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
