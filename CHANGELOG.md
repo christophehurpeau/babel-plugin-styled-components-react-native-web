@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/christophehurpeau/babel-plugin-styled-components-react-native-web/compare/v0.2.0...v0.2.1) (2022-01-10)
+
+
+### Bug Fixes
+
+* support call expressions and babel-plugin-styled-components ([7b20f21](https://github.com/christophehurpeau/babel-plugin-styled-components-react-native-web/commit/7b20f21ca882d380e585778e1b957f7b65ea0cbd)), closes [#40](https://github.com/christophehurpeau/babel-plugin-styled-components-react-native-web/issues/40)
+
 ## [0.2.0](https://github.com/christophehurpeau/babel-plugin-styled-components-react-native-web/compare/v0.1.0...v0.2.0) (2022-01-02)
 
 
