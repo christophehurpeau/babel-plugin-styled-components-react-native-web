@@ -88,7 +88,8 @@
 <a name='L23'></a><a href='#L23'>23</a>
 <a name='L24'></a><a href='#L24'>24</a>
 <a name='L25'></a><a href='#L25'>25</a>
-<a name='L26'></a><a href='#L26'>26</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -107,6 +108,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -125,15 +127,16 @@ exports.babelPlugins = [
 ];
 &nbsp;
 exports.actual = `
-import styled from 'styled-components';
+import styled from 'styled-components/native';
 const Button = styled.View\`
   display: flex;
 \`;
 `;
 &nbsp;
 exports.expected = `
-import styled from 'styled-components';
-const Button = styled.View.withConfig({
+import * as BabelPluginStyledComponentsReactNative from "react-native";
+import styled from 'styled-components/native';
+const Button = styled(BabelPluginStyledComponentsReactNative.View).withConfig({
   displayName: "with-babel-plugin-styled-components__Button",
   componentId: "sc-1s36hzg-0"
 })(["display:flex;"]);
