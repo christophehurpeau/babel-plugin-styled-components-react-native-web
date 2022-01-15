@@ -40,13 +40,8 @@ jobs:
         run: yarn run lint:eslint
         if: startsWith(matrix.node-version, '16.')
 
-      - name: Test
-        run: yarn run test
-        env:
-          CI: true
-
-      - name: Generate Coverage doc
-        run: yarn run generate:test-coverage
+      - name: Generate Test Coverage
+        run: yarn run test --coverage --coverageReporters=json --coverageReporters=text
         if: startsWith(matrix.node-version, '16.')
         env:
           CI: true
