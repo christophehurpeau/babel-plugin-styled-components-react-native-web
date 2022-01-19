@@ -15,9 +15,9 @@ __metadata:
   linkType: hard
 
 "@babel/compat-data@npm:^7.16.4":
-  version: 7.16.4
-  resolution: "@babel/compat-data@npm:7.16.4"
-  checksum: 4949ce54eafc4b38d5623696a872acaaced1a523605708d81c2c483253941917d90dae0de40fc01e152ae56075dadd89c23014da5a632b09c001a716fa689cae
+  version: 7.16.8
+  resolution: "@babel/compat-data@npm:7.16.8"
+  checksum: 10da2dac5ea9589c251412b00920889910e476c1ab24cd7095577635bc3a27c785151c89db4e26285fd39f509510ec29ab9d7e721f4fc16e4aec221cacde784b
   languageName: node
   linkType: hard
 
@@ -206,13 +206,13 @@ __metadata:
   linkType: hard
 
 "@babel/highlight@npm:^7.16.7":
-  version: 7.16.7
-  resolution: "@babel/highlight@npm:7.16.7"
+  version: 7.16.10
+  resolution: "@babel/highlight@npm:7.16.10"
   dependencies:
     "@babel/helper-validator-identifier": ^7.16.7
     chalk: ^2.0.0
     js-tokens: ^4.0.0
-  checksum: f7e04e7e03b83c2cca984f4d3e180c9b018784f45d03367e94daf983861229ddc47264045f3b58dfeb0007f9c67bc2a76c4de1693bad90e5394876ef55ece5bb
+  checksum: 1f1bdd752a90844f4efc22166a46303fb651ba0fd75a06daba3ebae2575ab3edc1da9827c279872a3aaf305f50a18473c5fa1966752726a2b253065fd4c0745e
   languageName: node
   linkType: hard
 
@@ -1168,9 +1168,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 17.0.8
-  resolution: "@types/node@npm:17.0.8"
-  checksum: f4cadeb9e602027520abc88c77142697e33cf6ac98bb02f8b595a398603cbd33df1f94d01c055c9f13cde0c8eaafc5e396ca72645458d42b4318b845bc7f1d0f
+  version: 17.0.10
+  resolution: "@types/node@npm:17.0.10"
+  checksum: 979e83d642a2b4f18fa1a4233f884822c05abc7acd0836024aa964187f8446432b21f7913e72fe2b3927c4a811c27a0b6cd60ac7c4ac6a6762cfbab70782aa6a
   languageName: node
   linkType: hard
 
@@ -1189,9 +1189,9 @@ __metadata:
   linkType: hard
 
 "@types/prettier@npm:^2.1.5":
-  version: 2.4.2
-  resolution: "@types/prettier@npm:2.4.2"
-  checksum: 76e230b2d11028af11fe12e09b2d5b10b03738e9abf819ae6ebb0f78cac13d39f860755ce05ac3855b608222518d956628f5d00322dc206cc6d1f2d8d1519f1e
+  version: 2.4.3
+  resolution: "@types/prettier@npm:2.4.3"
+  checksum: b240434daabac54700c862b0bb52a83fec396e0e9c847447119ba41fd8404d79aadfa174e6306fb094b29efadac586344b7606c3a71c286b71755ab2579d54df
   languageName: node
   linkType: hard
 
@@ -1750,9 +1750,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001286":
-  version: 1.0.30001298
-  resolution: "caniuse-lite@npm:1.0.30001298"
-  checksum: 43566732d1b8746e3dfae57f558471c701b26b2c166fb9fc53ad750d83128b2eb680a5e08233717e64055779b408c72d3b2cfad6d4ae33a3e647a11dc1c0d515
+  version: 1.0.30001300
+  resolution: "caniuse-lite@npm:1.0.30001300"
+  checksum: f8c981c0658e2ea67b5e106538a9f3b15d528a6679f2b6e7cb3f508a99e4f9f3f69c73d1b243c77e5ccb3bcef964a801a26a2ba6a13416b42baf314577e3172a
   languageName: node
   linkType: hard
 
@@ -2272,9 +2272,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.17":
-  version: 1.4.38
-  resolution: "electron-to-chromium@npm:1.4.38"
-  checksum: 09e63e4f4457c97c9124379c3254dcc55d281004eeefe30d386814872c88817900e2c537c045e2cdd2bc209ad7cd8e4651f8c9e0ec7beefb0f848011620ab089
+  version: 1.4.49
+  resolution: "electron-to-chromium@npm:1.4.49"
+  checksum: 0527cc195c34b609f4ecad25584d238494d758c730d0aafdbd408a0ccce42cc6f05c1c0b76cc055a0a173700e29b1f3352d91b5cbeb91d063321690913afae84
   languageName: node
   linkType: hard
 
@@ -5317,11 +5317,11 @@ __metadata:
   linkType: hard
 
 "rxjs@npm:^7.5.1":
-  version: 7.5.1
-  resolution: "rxjs@npm:7.5.1"
+  version: 7.5.2
+  resolution: "rxjs@npm:7.5.2"
   dependencies:
     tslib: ^2.1.0
-  checksum: 78e3eecb1644dd83adabc8d956f879dca62eb19c8afcd6acac71cf6d94534c33ea201e65387494fdeb1332395cba081e194f5a9699d58a5d48e416b8b52372aa
+  checksum: daf1fe7289de500b25d822fd96cde3c138c7902e8bf0e6aa12a3e70847a5cabeeb4d677f10e19387e1db44b12c5b1be0ff5c79b8cd63ed6ce891d765e566cf4d
   languageName: node
   linkType: hard
 
