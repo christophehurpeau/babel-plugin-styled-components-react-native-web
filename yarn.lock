@@ -1648,7 +1648,7 @@ __metadata:
     eslint: 8.9.0
     jest: 27.5.1
     prettier: 2.5.1
-    react-refresh: 0.8.3
+    react-refresh: 0.11.0
   peerDependencies:
     "@babel/core": ^7.0.0
   languageName: unknown
@@ -5207,10 +5207,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-refresh@npm:0.8.3":
-  version: 0.8.3
-  resolution: "react-refresh@npm:0.8.3"
-  checksum: 3cffe5a9cbac1c5d59bf74bf9fff43c987d87ef32098b9092ea94b6637377d86c08565b9374d9397f446b3fbcd95de986ec77220a16f979687cb39b7b89e2f91
+"react-refresh@npm:0.11.0":
+  version: 0.11.0
+  resolution: "react-refresh@npm:0.11.0"
+  checksum: 112178a05b1e0ffeaf5d9fb4e56b4410a34a73adeb04dbf13abdc50d9ac9df2ada83e81485156cca0b3fa296aa3612751b3d6cd13be4464642a43679b819cbc7
   languageName: node
   linkType: hard
 
