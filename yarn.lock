@@ -1644,7 +1644,7 @@ __metadata:
     "@pob/eslint-config": 49.0.0
     "@pob/root": 6.8.0
     "@types/jest": 27.4.1
-    babel-plugin-styled-components: 2.0.5
+    babel-plugin-styled-components: 2.0.6
     eslint: 8.9.0
     jest: 27.5.1
     prettier: 2.5.1
@@ -1654,9 +1654,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"babel-plugin-styled-components@npm:2.0.5":
-  version: 2.0.5
-  resolution: "babel-plugin-styled-components@npm:2.0.5"
+"babel-plugin-styled-components@npm:2.0.6":
+  version: 2.0.6
+  resolution: "babel-plugin-styled-components@npm:2.0.6"
   dependencies:
     "@babel/helper-annotate-as-pure": ^7.16.0
     "@babel/helper-module-imports": ^7.16.0
@@ -1665,7 +1665,7 @@ __metadata:
     picomatch: ^2.3.0
   peerDependencies:
     styled-components: ">= 2"
-  checksum: 0aa9dd2ab650bde4916070df34d25788d7dbdec71b7192b5686bd7ba4dd9d8e9233187c3111cb1d136e6309f6636298e0f40930865da3ad7e0f67000386c8b9d
+  checksum: 7be16a06432e0acfdbef23688b0da7d2320f2c48b6639e6f18089d4cdba4784b68d99e9b90e6d2b6babfb5a370dbc71151f1160f2cd8ca611c1fbd2cb1aea0ab
   languageName: node
   linkType: hard
 
